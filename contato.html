@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Font awesome-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <title>Contato</title>
+</head>
+
+<body>
+    <header style="background-image: url('img/background-contacto.jpg');">
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a href="contato.html" class="btn animate-btn">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Contate-nos</h1>
+                    <p>Entre em contato conosco hoje mesmo e descubra como podemos transformar sua visão digital em
+                        realidade com soluções inovadoras e personalizadas!</p>
+                </div>
+            </section>
+        </div>
+    </header>
+    <!--Header-->
+    <section class="contato">
+        <div class="container">
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3958.527092407326!2d-34.83026318865836!3d-7.180531992794532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7acc24820ed926b%3A0x3b0aff2ffa8e7304!2sR.%20Ed%C3%ADlson%20de%20Lima%20Santos%20-%20Mangabeira%2C%20Jo%C3%A3o%20Pessoa%20-%20PB%2C%2058059-406!5e0!3m2!1spt-BR!2sbr!4v1728687762798!5m2!1spt-BR!2sbr"
+                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contato-info">
+                <div class="left-side">
+                    <div>
+                        <i class="fa fa-location-dot"></i>
+                        <br>
+                        <p>R. Edílson de Lima Santos - Mangabeira</p>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope"></i>
+                        <br>
+                        <p class="endereco-contato"><a href="mailto:lumentech.dev@gmail.com">lumentech.dev@gmail.com</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="right-side">
+                    <form action="mailto:lumentech.dev@gmail.com" method="post" enctype="text/plain">
+                        <input type="text" name="nome" placeholder="Nome" required>
+                        <input type="email" name="email" placeholder="E-mail" required>
+                        <input type="tel" name="whatsapp" placeholder="Número para contato (WhatsApp)" required
+                            pattern="[0-9]{10,15}">
+                        <select id="opcao" name="opcao" required>
+                            <option value="" disabled selected>Nicho de mercado</option>
+                            <option value="ecommerce">E-commerce</option>
+                            <option value="site">Site</option>
+                            <option value="landingpage">Landing Page</option>
+                            <option value="outros">Outros</option>
+                        </select>
+
+                        <input type="number" name="investimento" placeholder="Valor médio do investimento (R$)"
+                            required>
+                        <input type="text" name="assunto" placeholder="Assunto" required>
+                        <textarea name="mensagem" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contato-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="https://www.instagram.com/lumentech.br/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>Desenvolvido pela ©Copyright, Lúmen.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Font awesome-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+    <title>Serviços</title>
+</head>
+
+<body>
+    <header style="background-image: url('img/background-servicos.jpg');">
+        <div class="container">
+            <nav>
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+                <ul class="ul">
+                    <a href="index.html">Home</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="servicos.html">Serviços</a>
+                    <a href="contato.html" class="btn animate-btn">Contato</a>
+                    <div class="close-icon" onclick="closeMenu()">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </div>
+                </ul>
+                <div class="menu-icon" onclick="openMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+            <section class="banner">
+                <div class="banner-text">
+                    <h1>Serviços</h1>
+                    <p>Ofereçemos um leque variado de serviços personalizados.</p>
+                    <!--Adicionar efeito e estilo no Eslogan-->
+                </div>
+            </section>
+        </div>
+    </header>
+    <!--Header-->
+    <section class="servicos">
+        <div class="container">
+            <h3>Nossos serviços</h3>
+            <p>Conheça um pouco dos nossos serviços!</p>
+            <div class="rows-card">
+                <a href="https://ecommerce-fawn-xi.vercel.app/" target="_blank">
+                    <div class="row-card-item">
+                        <img src="img/virtual_store.png" alt="">
+                        <p class="nome-servico"><strong>E-commerce</strong>
+                        </p>
+
+                        <p class="descricao-servico">
+                            Desenvolvemos e-commerces com uma abordagem estratégica que integra análise de mercado,
+                            design intuitivo, segurança robusta e otimização, garantindo uma experiência de compra
+                            fluida e satisfatória para os clientes.
+                        </p>
+                    </div>
+                </a>
+                <!--row-card-1-->
+                <div class="row-card-item">
+                    <img src="img/digital-marketing.png" alt="">
+                    <p class="nome-servico"><strong>Landing pages</strong>
+                    </p>
+                    <p class="descricao-servico">
+                        Criamos landing pages impactantes com foco em conversão, utilizando design atraente, conteúdo
+                        persuasivo e otimizações, tudo isso aliado a testes rigorosos para garantir uma experiência do
+                        usuário excepcional.
+                    </p>
+                </div>
+                <!--Row card 2-->
+                <div class="row-card-item">
+                    <img src="img/seo.png" alt="">
+                    <p class="nome-servico"><strong>SEO</strong>
+                    </p>
+                    <p class="descricao-servico">
+                        Implementamos estratégias de SEO abrangentes que otimizam o conteúdo, melhoram a visibilidade
+                        nos motores de busca e aumentam o tráfego orgânico, assegurando que nossos clientes alcancem seu
+                        público-alvo de forma eficaz.
+                    </p>
+                </div>
+                <!--Row card 3-->
+                <div class="row-card-item">
+                    <img src="img/writer.png" alt="">
+                    <p class="nome-servico"><strong>Criação de conteúdo</strong>
+                    </p>
+                    <p class="descricao-servico">
+                        Desenvolvemos conteúdo relevante e envolvente que conecta marcas ao seu público, utilizando
+                        pesquisa aprofundada e técnicas de storytelling para maximizar o impacto e impulsionar a
+                        conversão.
+                    </p>
+                </div>
+                <!--Row card 4-->
+                <div class="row-card-item">
+                    <img src="img/manager.png" alt="">
+                    <p class="nome-servico"><strong>Manutenção</strong>
+                    </p>
+                    <p class="descricao-servico">
+                        Oferecemos serviços de manutenção de aplicações que garantem desempenho contínuo e atualizações
+                        regulares, assegurando que nossos clientes mantenham suas soluções sempre seguras, funcionais e
+                        alinhadas com as melhores práticas do mercado.
+                    </p>
+                </div>
+            </div>
+            <!--Row card 5-->
+        </div>
+    </section>
+    <!--Serviços-->
+
+    <section class="dados">
+        <div class="container">
+            <div class="dados-item">
+                <img src="img/cloud.png" alt="">
+                <p>
+                    <strong>+1</strong> <br>
+                    Projetos concluídos
+                </p>
+            </div>
+            <div class="dados-item">
+                <img src="img/manager.png" alt="">
+                <p>
+                    <strong>+1</strong> <br>
+                    Clientes satisfeitos
+                </p>
+            </div>
+            <div class="dados-item">
+                <img src="img/trophy.png" alt="">
+                <p>
+                    <strong>+1</strong> <br>
+                    Jornada de trabalho
+                </p>
+            </div>
+            <div class="dados-item">
+                <img src="img/layer.png" alt="">
+                <p>
+                    <strong>+1</strong> <br>
+                    Publicidade paga
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="links">
+                <a href="https://www.instagram.com/lumentech.br/" target="_blank"><i
+                        class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <p>Desenvolvido pela ©Copyright, Lúmen.</p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

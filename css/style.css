@@ -31,7 +31,9 @@ p {
     margin: 0 auto;
     padding: 0 5%;
 }
-
+.container p{
+   font-weight: bolder;
+}
 .btn {
     background-color: #4f9cf9;
     color: white;
@@ -126,7 +128,7 @@ nav .close-icon {
 
 .banner {
     display: flex;
-    height: 90vh;
+    height: 69vh;
     justify-content: center;
 
 }
@@ -308,6 +310,7 @@ nav .close-icon {
 
  .sobre .sobre-img img{
     border-radius: 10px;
+    width: 50vh;
  }
 
  /*Página serviço*/

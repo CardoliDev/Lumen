@@ -276,6 +276,10 @@ nav .close-icon {
     flex-wrap: wrap;
  }
 
+ .img-clientes {
+   padding-top: 50px;
+ }
+
  /*footer*/
 
  .footer {
@@ -613,6 +617,14 @@ nav .close-icon {
       display: flex;
       width: 350px;
       align-items: center;
+    }
+
+    .img-clientes img{
+      display: inline-flex;
+      padding-top: 30px;
+      align-items: center;
+      flex-direction: row;
+      justify-content: space-between;
     }
  }
 

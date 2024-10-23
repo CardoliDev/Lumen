@@ -141,12 +141,12 @@ nav .close-icon {
 
 .banner .banner-text h1 {
     font-size: 96px;
-    color: white;
+    color: rgba(255, 255, 255, 0.781);
 }
 .banner .banner-text p {
     font-size: 20px;
-    color: #ffffffce;
-    font-weight: italic;
+    color: #ffffffa4;
+    font-weight:300;
     margin: 18px 0;
 }
 

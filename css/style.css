@@ -34,11 +34,14 @@ p {
 
 .logo-topo {
    display: flex;
+   justify-content: center;
+   flex-direction: row;
    padding: 0px;
-   border: 0px;
+   width: 400px;
    max-width: 50%;
    height: auto;
-
+   object-fit: cover;
+   
 }
 .container p{
    font-weight: bolder;

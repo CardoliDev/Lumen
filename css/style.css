@@ -50,7 +50,7 @@ p {
     background-color: #4f9cf9;
     color: white;
     padding: 15px 20px;
-    border-radius: 10px;
+    border-radius: 30px;
     cursor: pointer;
     display: inline-block;
     transition: 0.1s;
@@ -58,7 +58,7 @@ p {
 
 .btn .animate-btn {
    animation: animate-outline 1s ease-out infinite;
-   border-radius: 1px;
+   border-radius: 30px;
    text-decoration: none;
    color: white;
    transition: 0.2s;
@@ -152,8 +152,8 @@ nav .close-icon {
 }
 
 .banner .banner-text h1 {
-    font-size: 96px;
-    color: rgba(255, 255, 255, 0.781);
+    font-size: 50px;
+    color: #efefef;
 }
 .banner .banner-text p {
     font-size: 20px;
@@ -562,7 +562,7 @@ nav .close-icon {
     }
 
     .banner .banner-text h1 {
-        font-size: 80px;
+        font-size: 20px;
     }
 
     .banner .banner-text p{
@@ -606,6 +606,10 @@ nav .close-icon {
 
     .contato-info .right-side {
         margin-bottom: 30px;
+    }
+
+    .animate-btn a{
+      font-size: 5px;
     }
  }
 

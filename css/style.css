@@ -191,11 +191,8 @@ nav .close-icon {
     width: 100%;
  }
 
-
-
  .depoimentos h3 {
     text-align: center;
-
  }
 
  .depoimentos p {
@@ -282,7 +279,7 @@ nav .close-icon {
  /*footer*/
 
  .footer {
-    background-color: #4f9cf9;
+    background-color: #539ef8;
     text-align: center;
  }
 
@@ -610,6 +607,12 @@ nav .close-icon {
 
     .animate-btn a{
       font-size: 5px;
+    }
+
+    .rows-card > a {
+      display: flex;
+      width: 350px;
+      align-items: center;
     }
  }
 

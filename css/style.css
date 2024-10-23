@@ -31,6 +31,15 @@ p {
     margin: 0 auto;
     padding: 0 5%;
 }
+
+.logo-topo {
+   display: flex;
+   padding: 0px;
+   border: 0px;
+   max-width: 50%;
+   height: auto;
+
+}
 .container p{
    font-weight: bolder;
 }
